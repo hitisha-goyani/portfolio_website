@@ -6,5 +6,8 @@
 
 .theme{
     background-color: black;
-    color:white
+    color:white;
+}
+.color-blue{
+    color:#429ba1;
 }
