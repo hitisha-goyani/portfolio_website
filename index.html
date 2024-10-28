@@ -10,10 +10,10 @@
 <body>
     <!-- --------------------------------------------------------------------navbar section start--------------------------------------------------------------------------------------------------------- -->
 
-    <div class="navbar navbar-expand-sm shadow navbar-">
+    <div class="navbar navbar-expand-sm shadow ">
         <div class="container">
             <a class="navbar-brand">HG</a>
-            <button class="navbar-toggler" data-bs-toggle="collapse"data-bs-targer="#nav">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse " id="nav">
@@ -37,7 +37,7 @@
                     </li>
                 </ul>
                 <div class="icons">
-                    <button class="btn1">&#127774;</button>
+                    <button class="btn1" style="display: none;">&#127774;</button>
                     <button class="btn2">&#127761;</button>
                 </div>
             </div>
@@ -183,23 +183,52 @@
                     <p style="color: #6C6C6C; " class="mb-5">I've created and updated websites for many different clients. I worked with multiple CMS including WordPress, Joomla, and Drupal, as well as created my own custom website management system in Node.js.</p>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-6 col-md-6">
-                    <div class="position-relative align-items-center border-0 pb-2 d-flex" style="background-color:transparent;">
-                        <div class="position-relative overflow-hidden rounded-circle percen" style="width:1em;height: 1em; font-size: 130px;">
-                            <div class="position-absolute top-0 start-0" style="width:1em;height: 1em;">
-                                <div class="position-absolute top-0 start-0 color-blue" style="width:1em;height: 1em;">
-                                
-                            </div>
+            <div class="row row-cols-1 row-cols-md-3 ">
+              
+                <div class="col border border-danger ">
+                    <div class="circle-container rounded-circle">
+                        <div class="circle ">
+                          <div class="item layer-1  ">
+                            <div class="fill "></div>
+                          </div>
+                          <div class="item layer-2">
+                            <div class="fill"></div>
+                          </div>
+                          <div class="inside-content">90%</div>
                         </div>
-                        <div class="position-absolute z-3 rounded-circle" style="top:10px;left:10px;right:10px;bottom:10px;background-color: #e7f2f3;">
-                            <span class="position-absolute z-3 start-5 top-5 color-blue" style="transform: translate(32%,80%);font-size: 25px;">HTML</span>
-                        </div>
+                      </div>
+                     <h4 class="color-blue  ps-5 pt-3">HTML</h4>
                     </div>
-                </div>
-                <div class="col-6 col-md-6">
-                    <div class="border shadow p-5"></div>
-                </div>
+                     <div class="col  border border-danger">
+                        <div class="circle-container rounded-circle">
+                            <div class="circle ">
+                              <div class="item layer-1  ">
+                                <div class="fill "></div>
+                              </div>
+                              <div class="item layer-2">
+                                <div class="fill"></div>
+                              </div>
+                              <div class="inside-content">90%</div>
+                            </div>
+                          </div>
+                         <h4 class="color-blue  ps-5 pt-3">HTML</h4>
+                         </div>
+                         <div class="col  border border-danger">
+                            <div class="circle-container rounded-circle">
+                                <div class="circle ">
+                                  <div class="item layer-1  ">
+                                    <div class="fill "></div>
+                                  </div>
+                                  <div class="item layer-2">
+                                    <div class="fill"></div>
+                                  </div>
+                                  <div class="inside-content">90%</div>
+                                </div>
+                              </div>
+                             <h4 class="color-blue  ps-5 pt-3">HTML</h4>
+                             </div>
+                            
+                
             </div>
          </div>
 </section>
@@ -287,7 +316,16 @@
 
 
 
-          
+          <!-- <div class="position-relative align-items-center border-0 pb-2 d-flex" style="background-color:transparent;">
+                        <div class="position-relative overflow-hidden rounded-circle percen" style="width:1em;height: 1em; font-size: 130px;">
+                            <div class="position-absolute top-0 start-0" style="width:1em;height: 1em;">
+                                <div class="position-absolute top-0 start-0 color-blue" style="width:1em;height: 1em;">
+                                
+                            </div>
+                        </div>
+                        <div class="position-absolute z-3 rounded-circle" style="top:10px;left:10px;right:10px;bottom:10px;background-color: #e7f2f3;">
+                            <span class="position-absolute z-3 start-5 top-5 color-blue" style="transform: translate(32%,80%);font-size: 25px;">HTML</span>
+                        </div> -->
 
 
 
@@ -306,14 +344,15 @@
     <script>
         $(".btn1").click(function(){
         $("body").addClass("theme");
-       $(".btn1").hide();
-        $(".btn2").show();
+       $(".btn1").toggle();
+        $(".btn2").toggle();
 
         })
+
         $(".btn2").click(function(){
        $("body").removeClass("theme");
-       $(".btn2").hide();
-     $(".btn1").show();
+       $(".btn2").toggle();
+     $(".btn1").toggle();
       })
       </script>
 </body>
