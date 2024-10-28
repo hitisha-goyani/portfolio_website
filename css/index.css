@@ -53,6 +53,15 @@
     background: linear-gradient(180deg, #138086 0%, #062628 100%);
     
 }
+.percen::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: .5em;
+    bottom: 0;
+    background-color:  #429ba1;
+    content: '';
+}
 /* media query */
 @media(min-width:1120px){
 
