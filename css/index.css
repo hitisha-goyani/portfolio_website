@@ -55,6 +55,14 @@
     background-color: #e7f2f3;
     
   }
+  .shadow-blue{
+    box-shadow: 10px 10px 5px 0px rgba(19,128,134,0.33);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(19,128,134,0.33);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(19,128,134,0.33);
+  } 
+  .shadow-blue1{
+    
+  }
   
   .circle-container .circle .item,
   .circle-container .circle .fill{
