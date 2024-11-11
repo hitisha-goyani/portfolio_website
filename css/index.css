@@ -87,7 +87,39 @@
       transform: rotate(153deg);
     }
   }
+  .circle-container .circle .item1,
+  .circle-container .circle .fill1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+  }
   
+  .circle-container .circle .item1{
+    clip: rect(0px, 150px, 150px, 90px);
+  }
+  
+  .circle-container .circle .item1 .fill1{
+    clip: rect(0px, 90px, 150px, 0px);
+    background-color: #429ba1;
+  }
+  
+  .circle-container .circle .item1.layer-4,
+  .circle-container .circle .fill1{
+    transform: rotate(141deg);
+    animation: fill1 ease-in-out 3s;
+  }
+  
+  @keyframes fill1 {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(153deg);
+    }
+  }
+
+
   .inside-content{
     width: 130px;
     height: 130px;
