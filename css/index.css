@@ -49,6 +49,20 @@
     background: linear-gradient(180deg, #138086 0%, #062628 100%);
     
 }
+
+.carousel-control-prev-icon{
+  color:red;
+}
+.img-a
+{
+    transition: all 0.5s;
+}
+.img-a:hover
+{
+    transform:scale(0.5);
+    transform: translateX(-10px);
+    box-shadow: 10px 10px 5px 12px #062628;
+}
 .circle-container{
     width: 150px;
     height: 150px;
@@ -60,8 +74,8 @@
     -webkit-box-shadow: 10px 10px 5px 0px rgba(19,128,134,0.33);
     -moz-box-shadow: 10px 10px 5px 0px rgba(19,128,134,0.33);
   } 
-  .shadow-blue1{
-    
+  .icon:hover{
+    color:#429ba1;
   }
   
   .circle-container .circle .item,
