@@ -61,6 +61,35 @@
   left: 150px;
   transform: translateX(-50%);
 }
+
+.skill-bg img:nth-child(2){
+  position: absolute;
+  top: 70%;
+  right: 5px;
+  transform: translateY(-50%);
+}
+.skill-bg img:nth-child(3){
+  position: absolute;
+  top: 110%;
+  left: 300px;
+  transform: translateX(-50%);
+}
+.skill-bg img:nth-child(4){
+  position: absolute;
+  top: 20%;
+  left: 200px;
+  transform: translateX(-50%);
+}
+.img-t
+{
+    transition: all 1s;
+}
+.img-t:hover
+{
+    transform:scale(1.1);
+    transform: translateY(-40px);
+    box-shadow: -7px 20px 16px 10px rgba(19, 128, 134, 0.20)!important;
+}
 .img-border{
     width: 75px;
     height: 75px;
