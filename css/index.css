@@ -20,6 +20,12 @@
 .bg-darkblue{
     background-color: #062628;
 }
+.btn4:hover{
+  background-color:#062628;
+}
+.btn5:hover{
+  background-color: #429ba1;
+}
 .small-bg img:nth-child(2){
     position: absolute;
     top: 200px;
