@@ -68,7 +68,7 @@
 }
 .small-bg img:nth-child(2){
     position: absolute;
-    top: 200px;
+    top: 115px;
     left: 45%;
     transform: translateX(-50%);
 }
@@ -279,9 +279,19 @@
 @media(min-width:1120px){
 
     h1{
-        font-size: 65px;
+        font-size: 70px;
 
     }
+    .sub{
+      font-size:  35px!important;
+    }
+    .m-sub{
+      font-size:18px;
+    }
+    .f-size{
+      font-size:20px;
+    }
+    
 
 }
 @media(min-width:576px)
