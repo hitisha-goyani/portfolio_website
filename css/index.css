@@ -7,6 +7,46 @@
 .gif2{
   display: none;
 }
+.btn-1{
+  background: #42999E;
+  color: #062628;
+  border: 1px solid rgba(161, 204, 207, 0.26);
+  position: relative;
+  z-index: 2;
+  font-size: 15px;
+  font-weight: 700;
+  transition: 0.4s all;
+  border-radius: 100px;
+  padding: 10px 23px 9px;
+
+}
+.input-group1{
+
+  background: rgba(255, 255, 255, 0.09);
+  border-radius: 40px;
+  margin-bottom: 22px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+.input-group1>.form-control1:focus{
+  z-index: 5;
+
+}
+.form-control1{
+  background: transparent;
+  padding: 11px 17px;
+  border: 1px solid rgba(161, 204, 207, 0.26);
+  border-radius: 40px;
+  position: relative;
+  flex: 1 1 auto;
+  width: 1%;
+  font-size: 17px;
+  font-weight: 400 !important;
+  margin-bottom: 0;
+}
 
 .theme{
     background-color: black;
@@ -39,6 +79,25 @@
 .theme .gif2{
   display: block;
   transition: all 1s;
+}
+.s-icon{
+  width: 20px;
+  height: 20px;
+  padding: 18px;  
+  border-radius: 100px;
+  border: 1px solid rgba(161, 204, 207, 0.50);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+
+}
+
+.s-icon:hover{
+  color:#138086;
+  background: transparent;
+  transition: all ease 0.4s;
+
 }
 
 
