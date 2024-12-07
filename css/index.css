@@ -13,10 +13,10 @@
   border: 1px solid rgba(161, 204, 207, 0.26);
   position: relative;
   z-index: 2;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 700;
   transition: 0.4s all;
-  border-radius: 100px;
+  border-radius:0px 40px 40px 0px;
   padding: 10px 23px 9px;
 
 }
@@ -39,7 +39,7 @@
   background: transparent;
   padding: 11px 17px;
   border: 1px solid rgba(161, 204, 207, 0.26);
-  border-radius: 40px;
+  border-radius: 40px 0px 0px 40px;
   position: relative;
   flex: 1 1 auto;
   width: 1%;
@@ -91,6 +91,9 @@
   align-items: center;
   margin-right: 15px;
 
+}
+ .text-hover:hover {
+  color: #42999e !important;
 }
 
 .s-icon:hover{
@@ -503,4 +506,11 @@
 	span::after {
 		transform: translate3d(45px, 0, 0);
 	}
+}
+
+@media(max-width:353px){
+
+  .f-17{
+    font-size: 16px!important;
+  }
 }
