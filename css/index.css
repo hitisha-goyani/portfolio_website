@@ -20,6 +20,28 @@
   padding: 10px 23px 9px;
 
 }
+.s-link li{
+  padding: 15px;
+  width: 20px;
+  height: 20px;
+  padding: 18px;
+  border-radius: 100px;
+  border: 1px solid rgba(161, 204, 207, 0.50);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+
+}
+ .hover:hover{
+  transition: all ease 0.4s;
+  color:#138086;
+  background: transparent;
+}
+.s-link a{
+  font-size:18px;
+  font-weight: 300;
+}
 .input-group1{
 
   background: rgba(255, 255, 255, 0.09);
