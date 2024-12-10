@@ -33,6 +33,12 @@
   margin-right: 15px;
 
 }
+.s-link li:hover{
+  transition: all ease 0.4s;
+  color:#138086;
+  background:transparent;
+  
+}
  .hover:hover{
   transition: all ease 0.4s;
   color:#138086;
