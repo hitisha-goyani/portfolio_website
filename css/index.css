@@ -39,6 +39,10 @@
   background:transparent;
   
 }
+.t-hover:hover{
+
+  color:#138086;
+}
  .hover:hover{
   transition: all ease 0.4s;
   color:#138086;
