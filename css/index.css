@@ -258,9 +258,6 @@
   box-shadow:-1px 3px 16px 10px rgba(19, 128, 134, 0.20)
 }
 
-
-
-
 .img-a
 {
     transition: all 0.5s;
@@ -387,15 +384,37 @@
     }
     
 
-}
-@media(min-width:576px)
+  }
+@media(max-width:1320px)
 {
     .self{
-        width:100%;
+        width: 800px!important;
     }
 }
-
-
+@media(max-width:1140px)
+{
+    .self{
+        width: 800px!important;
+    }
+}
+@media(max-width:960px)
+{
+    .self{
+        width: 800px!important;
+    }
+}
+@media(max-width:720px)
+{
+    .self{
+        width: 800px!important;
+    }
+}
+@media(max-width:540px)
+{
+    .self{
+        width: 800px!important;
+    }
+}
 
 /* .btn1{
   border: 1px solid red;
