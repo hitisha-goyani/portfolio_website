@@ -41,7 +41,7 @@
 }
 .t-hover:hover{
 
-  color:#138086;
+  color: #429ba1!important;;
 }
  .hover:hover{
   transition: all ease 0.4s;
@@ -485,6 +485,7 @@
     background:  #429ba1;
     
   }
+  
   
   
 /* @media (min-width:992px) {
