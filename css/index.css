@@ -909,69 +909,46 @@ ul {
 
 
 
-/* From Uiverse.io by dylanharriscameron */ 
-.card {
-  position: relative;
-  width: 346px;
-  height: 250px;
-  border-radius: 14px;
-  z-index: 1111;
-  overflow: hidden;
+.cta{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 1.2rem;
   justify-content: center;
-  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
- border:1px solid red  ;
+  margin-top: 1.5rem;
+
+}
+.emoji{
+
+  animation: waving-hand 2.5s infinite;
+}
+.resume_anim {
+  animation: waving-hand 2.5s infinite;
+  transform-origin: 70% 70%;
+  font-size: 20px;
 }
 
-.bg {
-  position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 331px;
-    height: 240px;
-  z-index: 2;
-  background: rgba(255, 255, 255, .95);
-  backdrop-filter: blur(24px);
-  border-radius: 10px;
-  overflow: hidden;
-  border:1px solid blue;
-  outline: 2px solid white;
-}
-
-.blob {
-  position: absolute;
-  z-index: 1;
-  top: 50%;
-  left: 50%;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background-color: #ff0000;
-  opacity: 1;
-  filter: blur(12px);
-  animation: blob-bounce 5s infinite ease;
-}
-
-@keyframes blob-bounce {
+@keyframes waving-hand {
   0% {
-    transform: translate(-100%, -100%) translate3d(0, 0, 0);
-  }
-
-  25% {
-    transform: translate(-100%, -100%) translate3d(100%, 0, 0);
-  }
-
-  50% {
-    transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
-  }
-
-  75% {
-    transform: translate(-100%, -100%) translate3d(0, 100%, 0);
-  }
-
-  100% {
-    transform: translate(-100%, -100%) translate3d(0, 0, 0);
-  }
+    transform: rotate(0deg);
+}
+10% {
+    transform: rotate(14deg);
+}
+20% {
+    transform: rotate(-8deg);
+}
+30% {
+    transform: rotate(14deg);
+}
+40% {
+    transform: rotate(-4deg);
+}
+50% {
+    transform: rotate(10deg);
+}
+60% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(0deg);
+}
 }
