@@ -535,9 +535,6 @@
 
 
 
-* {
-	box-sizing: border-box;
-}
 
 
 .theme-switch__input:checked ~ main,
@@ -905,6 +902,18 @@ ul {
   to {
     left: 100%;
   }
+}
+
+/* Custom Cursor */
+.custom-cursor {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #429ba1;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.2s;
 }
 
 

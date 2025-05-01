@@ -18,6 +18,7 @@
         </span>
       </div>
 </div> -->
+
     <!-- --------------------------------------------------------------------navbar section start--------------------------------------------------------------------------------------------------------- -->
 
     <div class="navbar navbar-expand-sm shadow fixed-top bg-white z-3 nav-black shadow1" >
@@ -73,9 +74,9 @@
     </div>
 
     <!-- --------------------------------------------------------------------navbar section end--------------------------------------------------------------------------------------------------------- -->
-
-    
-
+ <!-- Cursor Effect -->
+ <div class="custom-cursor"></div>
+ 
     <!-- ------------------------------------------------------------------introduction section start----------------------------------------------------------------------- -->
       <section style="background: url(img/hero_bg.png),black;height: 100vh;" class="small-bg position-relative blende h-1">
         <div class="container  pt-5" style="margin-top: 4%;">
@@ -106,6 +107,7 @@
       
       <!-- ------------------------------------------------------------------introduction  section end----------------------------------------------------------------------- -->
       
+   
 
        <!-- ------------------------------------------------------------------about us section start----------------------------------------------------------------------- -->
 
@@ -142,13 +144,19 @@
       </section>
        
    <!-- ------------------------------------------------------------------about us section end----------------------------------------------------------------------- -->
+
+  
+
+
+
+
     
 <!-------------------------------------------------- social media icons section start-------------------------------------------------------------------- -->
    <div class="fabebar border-2 position-fixed bottom-0 p-3  rounded-2 bg-black1 border1" style="width:70px;background: rgba(231, 242, 243, 0.40);">
     <div class="d-flex flex-column">
       <i class="ri-instagram-fill  fs-2  color-darkblue static"></i>
       <i class="ri-linkedin-box-fill fs-2 color-darkblue static"></i>
-      <a href="https://github.com/hitisha-goyani" class="text-decoration-none"><i class="ri-github-fill fs-2 color-darkblue staticc"></i></a>
+      <a href="https://github.com/hitisha-goyani" class="text-decoration-none"><i class="ri-github-fill fs-2 color-darkblue static"></i></a>
     </div>
    </div>
    <!---------------------------------------------------- social media icons section end-------------------------------------------------------------------- -->
@@ -940,6 +948,22 @@
       
       
 
+      </script>
+      <script>
+        // Custom Cursor
+const cursor = document.querySelector('.custom-cursor');
+document.addEventListener('mousemove', (e) => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+});
+
+document.addEventListener('mousedown', () => {
+    cursor.style.transform = 'scale(0.8)';
+});
+
+document.addEventListener('mouseup', () => {
+    cursor.style.transform = 'scale(1)';
+});
       </script>
      
 
