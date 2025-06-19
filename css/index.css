@@ -475,47 +475,7 @@
   background: #429ba1;
 }
 
-/* @media (min-width:992px) {
-  .h-1{
-    height: 0px !important;
-  }
-  
-}
-@media (min-width:1320px) {
-  .h-1{
-    height: 100vh !important;
-  }
-  
-} */
 
-/* .btn1{
-  border: 1px solid red;
-  width:60px;
-  height: 30px;
-  border-radius:15px;
-  align-items: center;
-  padding: 3px;
-  background-color: gainsboro;
-
-  transition: all 1s;
-
-  
-}
-
-.subbtn{
-  border-radius: 50%;
-  height: 80%;
-  aspect-ratio: 1/1;
-  border: 1px solid green;
-  background-color: gray;
-  margin-left:0;
-
-
-} */
-
-/* .btn1:hover .subbtn{
-  margin-left:auto;
-} */
 
 .theme-switch__input:checked ~ main,
 .theme-switch__input:checked ~ label {
@@ -975,9 +935,9 @@ ul {
   }
 }
 
-.n-hover:hover {
-  background-color: #138086;
-  color: white !important;
+.na-hover:hover {
+
+  color: #062628 !important;
 }
 
 .demo-hover {
@@ -988,4 +948,10 @@ ul {
   transform: translateY(-5px) scale(1.05);
   box-shadow: 0 15px 25px rgba(142, 45, 226, 0.4);
   border-radius: 5px;
+}
+
+.na-hover.active, .na-hover:focus,  .na-hover:hover {
+    background-color: transparent!important;
+    border-color: transparent!important;
+    border-bottom: 3px solid #138086!important;
 }
