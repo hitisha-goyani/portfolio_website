@@ -175,12 +175,7 @@
   bottom: 150px;
   right: 60px;
 }
-/* .about-lg img:nth-child(2){
-  position: absolute;
-  top: 5%;
-  right:9%;
-  transform: translateX(-50%);
-} */
+
 .about-lg img:nth-child(3) {
   position: absolute;
   top: 5%;
