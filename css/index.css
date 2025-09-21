@@ -135,11 +135,30 @@
   transition: all 1s;
 }
 .color-blue {
-  color: #429ba1;
+  color: #429ba1!important;
 }
 .color-darkblue {
   color: #062628;
 }
+
+.theme .skill-card {
+  background-color: #000!important;
+  border: 1px solid rgba(161, 204, 207, 0.5);
+}
+
+.theme .bx-express-js{
+  color: white!important;;
+}
+
+.theme .card{
+  background-color: #000;
+}
+
+.theme .b-black{
+  background-color: #000 !important;
+}
+
+
 .bg-blue {
   background-color: #429ba1;
 }
@@ -270,7 +289,7 @@
   color: #429ba1;
 }
 
-.circle-container .circle .item,
+/* .circle-container .circle .item,
 .circle-container .circle .fill {
   width: 150px;
   height: 150px;
@@ -345,7 +364,7 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 130px;
-}
+} */
 
 /* media query */
 @media (min-width: 1120px) {
@@ -871,6 +890,8 @@ ul {
 .emoji {
   animation: waving-hand 2.5s infinite;
 }
+
+
 .resume_anim {
   animation: waving-hand 2.5s infinite;
   transform-origin: 70% 70%;
@@ -979,7 +1000,7 @@ ul {
   } */
 
   .skill-card {
-    background: #fff;
+    background: #fff!important;
     border-radius: 15px;
     padding: 25px 10px;
     text-align: center;
@@ -998,7 +1019,7 @@ ul {
   .skill-card p {
     font-weight: 600;
     font-size: 18px;
-    color: #0d47a1;
+    color:#429ba1;
     margin: 0;
     transition: color 0.3s ease;
   }
@@ -1006,7 +1027,7 @@ ul {
   /* Hover Effect */
   .skill-card:hover {
     transform: translateY(-5px) scale(1.08);
-    box-shadow: 0 12px 30px rgba(0,123,255,0.25);
+    box-shadow: 0 12px 30px rgba(19, 128, 134, 0.33);
   }
 
   .skill-card:hover i {
@@ -1065,135 +1086,3 @@ ul {
 
 }
 
-/* skill slider */
-
-
-/* .skill-slider {
-  background: #f9f9f9;
-  padding: 60px 0;
-  position: relative;
-  overflow: hidden;
-}
-
-.skill-slider h2 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #42999E;
-}
-
-.carousel {
-  width: 100%;
-  height: 300px;
-  perspective: 1200px;
-  position: relative;
-  margin: auto;
-}
-
-.carousel__item {
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -75px;
-  background: #fff;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 70px;
-  transition: transform 0.5s, box-shadow 0.3s;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
-}
-
-.carousel__item:hover {
-  transform: scale(1.2) translateZ(50px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
-}
-
-.carousel__item p {
-  font-size: 14px;
-  margin-top: 5px;
-  color: #333;
-}
-
-@keyframes rotate {
-  from { transform: rotateY(0deg); }
-  to { transform: rotateY(360deg); }
-}
-
-.carousel {
-  transform-style: preserve-3d;
-  animation: rotate 20s linear infinite;
-}
-
-.carousel__item:nth-child(1) { transform: rotateY(0deg) translateZ(400px); }
-.carousel__item:nth-child(2) { transform: rotateY(32deg) translateZ(400px); }
-.carousel__item:nth-child(3) { transform: rotateY(64deg) translateZ(400px); }
-.carousel__item:nth-child(4) { transform: rotateY(96deg) translateZ(400px); }
-.carousel__item:nth-child(5) { transform: rotateY(128deg) translateZ(400px); }
-.carousel__item:nth-child(6) { transform: rotateY(160deg) translateZ(400px); }
-.carousel__item:nth-child(7) { transform: rotateY(192deg) translateZ(400px); }
-.carousel__item:nth-child(8) { transform: rotateY(224deg) translateZ(400px); }
-.carousel__item:nth-child(9) { transform: rotateY(256deg) translateZ(400px); }
-.carousel__item:nth-child(10) { transform: rotateY(288deg) translateZ(400px); }
-.carousel__item:nth-child(11) { transform: rotateY(320deg) translateZ(400px); } */
-
-.skills-section {
-  background: #f9f9f9;
-}
-
-.skills-section h2 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #42999E;
-}
-
-.skills-slider {
-  overflow: hidden;
-  position: relative;
-}
-
-.skills-track {
-  display: flex;
-  gap: 30px;
-  width: max-content;
-  animation: scroll 20s linear infinite;
-}
-
-.skill-card {
-  flex: 0 0 auto;
-  width: 140px;
-  height: 140px;
-  background: #fff;
-  border-radius: 20px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 70px;
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.skill-card p {
-  margin: 8px 0 0;
-  font-size: 16px;
-  font-weight: 600;
-  color: #333;
-}
-
-.skill-card:hover {
-  transform: translateY(-10px) scale(1.05);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-}
-
-@keyframes scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-
-/* Duplicate skills for infinite loop effect */
-.skills-track::after {
-  content: attr(data-duplicate);
-}
