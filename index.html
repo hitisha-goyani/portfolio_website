@@ -281,91 +281,6 @@
 
 
   <!------------------------------------------------------------------skills section start--------------------------------------------------------------->
-    <!-- <section class="skill-bg position-relative" id="skill">
-    
-      <h2 class="color-blue my-5 text-center">My Skills</h2>
-      <div class="container my-5">
-        <div class="row row-cols-1 row-cols-md-2">
-          <div class="col  ">
-            <div class="border border1  p-4">
-              <div class="row row-cols-1  row-cols-sm-2 row-cols-md-2  row-cols-lg-3">
-                <div class="col  p-2">
-                  <div class="border shadow rounded-3 border1 p-1 b-hover">
-                    <i class='bx bxl-html5 d-flex justify-content-center pt-2 i-hover'
-                      style='color:#e54d26; font-size: 70px;'></i>
-                    <p class=" text-center color-blue fw-semibold fs-5">HTML</p>
-
-                  </div>
-                </div>
-                <div class="col  p-2">
-                  <div class="border  shadow rounded-3 border1 p-1 b-hover">
-                    <i class='bx bxl-css3 d-flex justify-content-center pt-2 i-hover'
-                      style='color:#0070be; font-size: 70px;'></i>
-                    <p class=" text-center  color-blue fw-semibold fs-5">CSS</p>
-
-                  </div>
-                </div>
-                <div class="col  p-2">
-                  <div class="border  shadow rounded-3 border1 p-1 b-hover">
-                    <i class='bx bxl-bootstrap d-flex justify-content-center pt-2 i-hover'
-                      style='color:#6e10ec; font-size: 70px;'></i>
-                    <p class=" text-center  color-blue fw-semibold fs-5">Bootstrap</p>
-                  </div>
-                </div>
-                <div class="col p-2">
-                  <div class="border  shadow rounded-3 border1 p-1 b-hover">
-                    <i class='bx bxl-jquery d-flex justify-content-center pt-2 i-hover'
-                      style='color:#78cff5; font-size: 70px;'></i>
-                    <p class=" text-center  color-blue fw-semibold fs-5">jQuery</p>
-                  </div>
-                </div>
-                <div class="col p-2">
-                  <div class="border  shadow rounded-3 border1 p-1 b-hover">
-                    <i class='bx bxl-javascript  d-flex justify-content-center pt-2 i-hover'
-                      style='color:#f4e11e; font-size: 70px;'></i>
-                    <p class=" text-center  color-blue fw-semibold fs-5">JavaScript</p>
-                  </div>
-                </div>
-                <div class="col p-2">
-                  <div class="border  shadow rounded-3 border1 p-1 b-hover">
-                    <i class='bxl  bx-react  d-flex justify-content-center pt-2 i-hover'
-                      style='color:#58C4DC; font-size: 70px;'></i>
-                    <p class=" text-center  color-blue fw-semibold fs-5">React js</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col  ">
-            <div class="border  rounded-3 border1  p-4">
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2  row-cols-lg-3">
-                <div class="col  p-2">
-                  <div class="border  shadow rounded-3 border1 p-1 b-hover">
-                    <i class='bx bxl-c-plus-plus d-flex justify-content-center pt-2 i-hover'
-                      style='color:#0080cd; font-size: 70px;'></i>
-                    <p class=" text-center  color-blue fw-semibold fs-5">c++</p>
-                  </div>
-                </div>
-                <div class="col p-2">
-                  <div class="border  shadow rounded-3 border1 p-1 b-hover">
-                    <i class='bxl  bx-tailwind-css d-flex justify-content-center pt-2 i-hover'
-                      style='color:#38BDF8; font-size: 70px;'></i>
-                    <p class=" text-center  color-blue fw-semibold fs-5">Tailwind css</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img src="img/right_bg_one.png" alt="right_bg_one" class="d-none d-lg-block" width="35%">
-      <img src="img/circle_element.png" alt="circle_element" class="d-none d-lg-block">
-      <img src="img/cross_element.png" alt="cross_element" class="d-none d-lg-block">
-
-    </section> -->
-
     
     <section class="skill-bg position-relative" id="skill">
 
@@ -555,8 +470,14 @@
   <div class="container py-5" id="work">
     <h2 class="color-blue my-5 text-center">Protfolio</h2>
     <ul class="nav nav-tabs justify-content-center mb-4" id="projectTabs" role="tablist">
+
+        <li class="nav-item pe-3 active" role="presentation">
+        <button class="nav-link  fs-5 na-hover active" style="color:#138086" id="backend-tab" data-bs-toggle="tab"
+          data-bs-target="#backend" type="button" role="tab">Node js |Express js |MongoDB </button>
+      </li>
+       
       <li class="nav-item pe-3" role="presentation">
-        <button class="nav-link  fs-5 na-hover active" style="color:#138086" id="ai-tab" data-bs-toggle="tab"
+        <button class="nav-link  fs-5 na-hover" style="color:#138086" id="ai-tab" data-bs-toggle="tab"
           data-bs-target="#ai" type="button" role="tab">React js</button>
       </li>
       <li class="nav-item pe-3" role="presentation">
@@ -565,14 +486,154 @@
       </li>
       <li class="nav-item pe-3" role="presentation">
         <button class="nav-link  fs-5  na-hover " style="color:#138086" id="web-tab " data-bs-toggle="tab"
-          data-bs-target="#web" type="button" role="tab">Html & CSS</button>
+          data-bs-target="#web" type="button" role="tab">Html | CSS</button>
       </li>
+     
     </ul>
 
     <!-- Tab Content -->
     <div class="tab-content" id="projectTabsContent">
 
-      <div class="tab-pane fade show active" id="ai" role="tabpanel">
+    
+<!-- node js -->
+ <div class="tab-pane fade show active" id="backend" role="tabpanel">
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 ">
+            <div class="border p-4 shadow rounded-3 img-t border1">
+              <div class="shadow-blue p-5  rounded-2 border  border1">
+                <video width="100%" height="100%" autoplay muted>
+                  <source src="video/to-do-expreejs.mp4" type="video/mp4">
+                </video>
+              </div>
+              <h5 class="pt-4 text-center" style="color:#429ba1 ">To-do-app</h5>
+              <p style="color:#062628 ;font-size:13px;" class="text1">I developed a To-Do App using Node.js and Express.js, with EJS as the templating engine to create a clean, responsive user interface.
+This project demonstrates complete CRUD functionality, allowing users to add new tasks, edit existing ones, and delete completed or unnecessary tasks seamlessly.
+              </p>
+              <div class="d-flex gap-2 flex-wrap">
+                <span style="height: 25px; border-style: solid;border-width: 1px;border-color:#429ba1;"
+                  class="d-flex rounded-pill justify-content-between align-items-center badge text-bg-light text-danger  p-0 px-2 py-1 b-black">
+                  <i class='bx bxl-nodejs  i-hover me-1' style='color:#429ba1; font-size: 20px;'></i>
+                  <small style="color:#429ba1">Node js</small>
+                </span>
+                <span style="height: 25px; border-style: solid;border-width: 1px;border-color:#429ba1;"
+                  class="d-flex rounded-pill justify-content-between align-items-center badge text-bg-light text-danger p-0 px-2 py-1  b-black">
+                  <i class='bxl  bx-express-js i-hover me-1' style='color:#429ba1; font-size: 20px;'></i>
+                  <small style="color:#429ba1">Express js</small>
+                </span>
+
+              </div>
+              <div class="text-center">
+                <a href="https://github.com/hitisha-goyani/Express-js/tree/main/to-do-app"
+                  class="btn btn5 mt-4 px-4 fs-5 fw-semibold btn5 bg-darkblue text-white">Github</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 ">
+            <div class="border p-4 shadow rounded-3 img-t border1">
+              <div class="shadow-blue p-5 rounded-2 border  border1">
+                <video width="100%" height="100%" autoplay muted>
+                  <source src="video/wheather-express.mp4" type="video/mp4">
+                </video>
+              </div>
+              <h5 class="pt-4 text-center" style="color:#429ba1 ">Wheather-app</h5>
+              <p style="color:#062628 ;font-size:13px;" class="text1">I built a Weather App using Node.js, Express.js, and EJS that allows users to search for any city and instantly view the current temperature, weather condition.
+The app fetches real-time weather data using a public weather API and displays it in a simple, clean, and responsive UI built EJS templates.
+              </p>
+              <div class="d-flex gap-2 flex-wrap">
+                <span style="height: 25px; border-style: solid;border-width: 1px;border-color:#429ba1;"
+                  class="d-flex rounded-pill justify-content-between align-items-center badge text-bg-light text-danger p-0 px-2 py-1  b-black">
+                  <i class='bx bxl-nodejs  i-hover me-1' style='color:#429ba1; font-size: 20px;'></i>
+                  <small style="color:#429ba1">Node js</small>
+                </span>
+                <span style="height: 25px; border-style: solid;border-width: 1px;border-color:#429ba1;"
+                  class="d-flex rounded-pill justify-content-between align-items-center badge text-bg-light text-danger p-0 px-2 py-1  b-black">
+                  <i class='i-hover me-1 bxl  bx-express-js ' style='color:#429ba1; font-size: 20px;'></i>
+                  <small style="color:#429ba1">Express js</small>
+                </span>
+
+              </div>
+              <div class="text-center">
+                <a href="https://github.com/hitisha-goyani/Express-js/tree/main/wheather-app"
+                  class="btn btn5 mt-4 px-4 fs-5 fw-semibold btn5 bg-darkblue text-white">Github</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 ">
+            <div class="border p-4 shadow rounded-3 img-t border1">
+              <div class="shadow-blue p-5 rounded-2 border  border1">
+                <video width="100%" height="100%" autoplay muted>
+                  <source src="video/movie-mongodb.mp4" type="video/mp4">
+                </video>
+              </div>
+              <h5 class="pt-4 text-center" style="color:#429ba1 ">Movie-web</h5>
+              <p style="color:#062628 ;font-size:13px;" class="text1">I created a Movie Management Web App using Node.js, Express.js, and MongoDB Atlas (Cloud) that allows users to add, edit, view, and delete movie details easily.
+The project follows a full CRUD structure, and the UI is designed with EJS templates to render dynamic movie data in a clean .
+              </p>
+              <div class="d-flex gap-2 flex-wrap">
+                <span style="height: 25px; border-style: solid;border-width: 1px;border-color:#429ba1;"
+                  class="d-flex rounded-pill justify-content-between align-items-center badge text-bg-light text-danger p-0 px-2 py-1  b-black">
+                  <i class='bx bxl-nodejs i-hover me-1' style='color:#429ba1; font-size: 20px;'></i>
+                  <small style="color:#429ba1">Node js</small>
+                </span>
+                <span style="height: 25px; border-style: solid;border-width: 1px;border-color:#429ba1;"
+                  class="d-flex rounded-pill justify-content-between align-items-center badge text-bg-light text-danger p-0 px-2 py-1  b-black">
+                  <i class=' bxl  bx-express-js i-hover me-1' style='color:#429ba1; font-size: 20px;'></i>
+                  <small style="color:#429ba1">Express js</small>
+                </span>
+                <span style="height: 25px; border-style: solid;border-width:1px;border-color:#429ba1;"
+                  class="d-flex rounded-pill justify-content-between align-items-center badge text-bg-light text-danger p-0 px-2 py-1  b-black">
+                  <i class='bx bxl-mongodb i-hover' style='color:#429ba1; font-size: 20px;'></i>
+                  <small style="color:#429ba1">MongoDB</small>
+                </span>
+
+              </div>
+              <div class="text-center">
+                <a href="https://github.com/hitisha-goyani/movie-backend"
+                  class="btn btn5 mt-4 px-4 fs-5 fw-semibold btn5 bg-darkblue text-white">Github</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-12 ">
+            <div class="border p-4 shadow rounded-3 img-t border1">
+              <div class="shadow-blue p-5 rounded-2 border  border1">
+                <video width="100%" height="100%" autoplay muted>
+                  <source src="video/book-store-mongodb.mp4" type="video/mp4">
+                </video>
+              </div>
+              <h5 class="pt-4 text-center" style="color:#429ba1 ">Book-store-app</h5>
+              <p style="color:#062628 ;font-size:13px;" class="text1">I developed a Book Store Management App using Node.js, Express.js, MongoDB, and EJS that allows users to add, edit, update, view, and delete book details.
+This project demonstrates the complete CRUD  functionality with a simple and user-friendly interface.
+              </p>
+              <div class="d-flex gap-2 flex-wrap">
+                <span style="height: 25px; border-style: solid;border-width: 1px;border-color:#429ba1;"
+                  class="d-flex rounded-pill justify-content-between align-items-center badge text-bg-light text-danger p-0 px-2 py-1  b-black">
+                  <i class='bx bxl-nodejs  i-hover me-1' style='color:#429ba1; font-size: 20px;'></i>
+                  <small style="color:#429ba1">Node js</small>
+                </span>
+                <span style="height: 25px; border-style: solid;border-width: 1px;border-color:#429ba1;"
+                  class="d-flex rounded-pill justify-content-between align-items-center badge text-bg-light text-danger p-0 px-2 py-1  b-black">
+                  <i class='i-hover me-1  bxl  bx-express-js ' style='color:#429ba1; font-size: 20px;'></i>
+                  <small style="color:#429ba1">Express js</small>
+                </span>
+                <span style="height: 25px; border-style: solid;border-width:1px;border-color:#429ba1;"
+                  class="d-flex rounded-pill justify-content-between align-items-center badge text-bg-light text-danger p-0 px-2 py-1  b-black">
+                  <i class='bx bxl-mongodb i-hover' style='color:#429ba1; font-size: 20px;'></i>
+                  <small style="color:#429ba1">MongoDB</small>
+                </span>
+
+              </div>
+              <div class="text-center">
+                <a href="https://github.com/hitisha-goyani/book-store-final-backend"
+                  class="btn btn5 mt-4 px-4 fs-5 fw-semibold btn5 bg-darkblue text-white">Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- react js -->
+
+      <div class="tab-pane fade " id="ai" role="tabpanel">
         <div class="row g-4">
           <div class="col-lg-4 col-md-6 col-sm-12 col-12 ">
             <div class="border p-4 shadow rounded-3 img-t border1">
